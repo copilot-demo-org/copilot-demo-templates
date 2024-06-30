@@ -1,0 +1,4 @@
+# A Copilot for Voice + Copilot for Chat + Copilot for CLI demo of building an app called Who is Who at GitHub
+This is a demonstration of writing a really quick prototype of an app from scratch using different modalities of Copilot. Copilot for Voice and Copilot for Chat are demonstrated.
+## What is the app about
+*Context: As a recent joiner of GitHub, I myself know how hard it is to be getting to know people in the company. I decided to build a simple app addressing this by matching a name with one of GitHub avatars of three random colleagues. I highly recommend to watch the video, to find out how it works.*

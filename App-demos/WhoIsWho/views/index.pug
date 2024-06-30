@@ -1,0 +1,18 @@
+html
+  head
+    title My App
+  body
+    h1 Who is #{who.name}?
+    ul
+      each member in randomMembers
+        img(src=member.avatar, alt=member.name, onclick=`checkAnswer('${member.name}')`)
+
+    script.
+      function checkAnswer(name) {
+        if (name === "#{who.name}") {
+          alert("Right!");
+          location.reload();
+        } else {
+          alert("Wrong!");
+        }
+      }
