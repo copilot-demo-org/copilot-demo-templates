@@ -1,7 +1,5 @@
 # Class Diagram for CustomerController.java
 
-Below is the class diagram for the `CustomerController` class using Mermaid JS:
-
 ```mermaid
 classDiagram
     class CustomerController {
@@ -22,7 +20,6 @@ classDiagram
     CustomerController --> CustomerDAO
     CustomerDAO --> Customer
 
-classDiagram
     class Customer {
         -int customerID
         -String name
@@ -58,3 +55,4 @@ classDiagram
     }
     Customer --> CustomerCreditRating
     Customer --> CustomerPaymentReport
+```
